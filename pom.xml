@@ -59,7 +59,7 @@
 				<extensions>true</extensions>
 				<configuration>
 					<serverId>nexus</serverId>
-					<nexusUrl>http://localhost:8099/nexus/</nexusUrl>
+					<nexusUrl>http://localhost:8081/nexus/</nexusUrl>
 				</configuration>
 			</plugin>
 
