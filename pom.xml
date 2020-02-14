@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
@@ -21,14 +22,10 @@
 		<junit.version>4.12</junit.version>
 	</properties>
 	<distributionManagement>
-		<repository>
-			<id>nexus</id>
-			<name>Calculator</name>
-			<url>http://localhost:8099/nexus/content/repositories/calculator</url>
-			<layout>default</layout>
-		</repository>
-		<!-- snapshotRepository> <id>calculator</id> <url>http://localhost:8099/nexus/content/repositories/calculator</url> 
-			</snapshotRepository -->
+		<snapshotRepository>
+			<id>calculator</id>
+			<url>http://localhost:8081/nexus/content/repositories/calculator</url>
+		</snapshotRepository>
 	</distributionManagement>
 
 
@@ -132,7 +129,7 @@
 				<artifactId>cal.sq.mvn</artifactId>
 				<version>0.0.2-SNAPSHOT</version>
 			</plugin>
-			
+
 		</plugins>
 	</build>
 </project>
