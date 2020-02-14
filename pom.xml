@@ -132,6 +132,7 @@
 				<artifactId>cal.sq.mvn</artifactId>
 				<version>0.0.2-SNAPSHOT</version>
 			</plugin>
+			
 		</plugins>
 	</build>
 </project>
