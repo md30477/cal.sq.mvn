@@ -9,7 +9,6 @@ import java.io.ObjectOutput;
 import java.time.DateTimeException;
 
 public class AgeCalc implements Externalizable {
-	@SuppressWarnings("unused")
 	private String inputDate;
 	public AgeCalc(String inputDate){
 		this.inputDate = inputDate;
@@ -18,7 +17,6 @@ public class AgeCalc implements Externalizable {
 		AgeCalc obj = new AgeCalc(inputDate);
 		String temp[] = inputDate.split("-");
 		String date1 = temp.toString();
-		System.out.println(date1);
 		String resultString = "You are ";
 		int sum = 0;
 	    LocalDate todayDate = LocalDate.now();
