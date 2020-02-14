@@ -22,10 +22,15 @@
 		<junit.version>4.12</junit.version>
 	</properties>
 	<distributionManagement>
-		<snapshotRepository>
-			<id>calculator</id>
+		<repository>
+			<id>nexus</id>
+			<name>Calculator</name>
+
 			<url>http://localhost:8081/nexus/content/repositories/calculator</url>
-		</snapshotRepository>
+			<layout>default</layout>
+		</repository>
+		<!-- snapshotRepository> <id>calculator</id> <url>http://localhost:8099/nexus/content/repositories/calculator</url> 
+			</snapshotRepository -->
 	</distributionManagement>
 
 
